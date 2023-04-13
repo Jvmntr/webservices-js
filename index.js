@@ -21,7 +21,9 @@ app.use('/usuario', UsuarioRoutes)
 
 //rota inicial do endpoint
 app.get('/', (req, res) => {
-    res.json({ message: '[SERVER] Iniciado.'})
+    res.status(200).send({
+        message: "Olá, para realizar os testes, por favor acesse: https://github.com/Jvmntr/webservices-js e siga o cenário de testes (Heroku)",
+    })
     console.log('[SERVER] Iniciando aplicação.')
 })
 
