@@ -218,7 +218,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-      
+      https://webservices-fiap-js.herokuapp.com/produto
     </code>
 </pre>
 	
@@ -226,15 +226,15 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto
     </code>
 </pre>
 
-<strong> 🟣 GET - Consultar Produto </strong>
+<strong> 🟣 GET - Consultar Produto por ID</strong>
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -242,7 +242,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -250,7 +250,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -260,7 +260,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor
     </code>
 </pre>
 	
@@ -268,15 +268,15 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor
     </code>
 </pre>
 
-<strong> 🟣 GET - Consultar Fornecedor </strong>
+<strong> 🟣 GET - Consultar Fornecedor por ID</strong>
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
@@ -284,7 +284,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
@@ -292,7 +292,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
