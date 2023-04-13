@@ -39,45 +39,17 @@
 </ul>
 
 <h2 >
-  🎬 Iniciando o projeto
+  🎬 Pré-Requisitos
 </h2>
-
-<h3>
-  🟩 NodeJS
-</h3>
-
-Para iniciar e conseguir rodar o projeto corretamente, será necessário que você tenha o <strong>NodeJS</strong> instalado em sua máquina.<br>
-Para instalar o <strong>NodeJS</strong> é muito simples, basta você ir até o site oficial: https://nodejs.org/en <br>
-E realizar o download da versão <strong>LTS (Long Term Support)</strong>.
 
 <h3>
  🌒 Insomnia
 </h3>
 
 Feito isso, também será necessário que você instale o <strong>Insomnia</strong> que será nosso ambiente de testes nesse projeto.
-Para instalar o <strong>Insomnia</strong> é muito simples também, basta ir até o site oficial e realizar o download: https://insomnia.rest/download
+Para instalar o <strong>Insomnia</strong> é muito simples também, basta ir até o site oficial e realizar o download: <strong> https://insomnia.rest/download </strong>
 
-<h3>
- ⛓️ Instalando dependências e executando o projeto
-</h3>
-
-Após finalizar esses dois passos, você pode clonar esse repositório, ou fazer o download do arquivo zip, (fica ao seu critério).
-
-Logo em seguida, abra o código em sua IDE de preferência e roda o seguinte comando no seu terminal:
-
-<pre>
-    <code>
-        npm install
-    </code>
-</pre>
-
-Feito isso você pode rodar o seguinte comando que irá iniciar a aplicação de fato:
-
-<pre>
-    <code>
-        npm run dev
-    </code>
-</pre>
+<strong> OBS: </strong> Você também pode utilizar o <Strong> Postman </strong> para os testes de ambiente, segue o link: <strong> https://www.postman.com/ </strong>
 
 <h2 >
   🪛 Cenário de testes (Local)
