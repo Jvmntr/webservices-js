@@ -167,7 +167,9 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
        }
     </code>
 </pre>
-<h1 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 <h1>
+<br>
+<br>
+
 <h2>🚦 Rotas de teste (Heroku)</h2>
 
 <h3> 👤 Rotas do Usuario </h3>
@@ -296,7 +298,9 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
     </code>
 </pre>
 
-<h2>🚦 Evidências de funcionamento (Local) </h2>
+<h2 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 </h2> 
+
+<h2>🚦 Evidências de funcionamento (Heroku) </h2>
 
 <h3> 👤 Rotas do Usuario </h3>
 
