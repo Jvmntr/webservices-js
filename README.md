@@ -52,7 +52,7 @@ Para instalar o <strong>Insomnia</strong> é muito simples também, basta ir at�
 <strong> OBS: </strong> Você também pode utilizar o <Strong> Postman </strong> para os testes de ambiente, segue o link: <strong> https://www.postman.com/ </strong>
 
 <h2 >
-  🪛 Cenário de testes (Local)
+  🪛 Cenário de testes (Heroku)
 </h2>
 
 <h2 align="center"> ⚠️ IMPORTANTE ⚠️ </h2> 
@@ -60,7 +60,7 @@ Para instalar o <strong>Insomnia</strong> é muito simples também, basta ir at�
 
 <h3>✅ Criação de usuários </h3>
 
-Para criar um novo usuário, faça uma requisição do tipo POST para a URL <strong>http://localhost:3000/usuario</strong> com o seguinte corpo da requisição:
+Para criar um novo usuário, faça uma requisição do tipo POST para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario</strong> com o seguinte corpo da requisição:
 
 <pre>
     <code>
@@ -72,39 +72,64 @@ Para criar um novo usuário, faça uma requisição do tipo POST para a URL <str
     </code>
 </pre>
 
-A resposta será o objeto do usuário criado, contendo seu ID, nome, e-mail e data de criação, não é informado a senha por questões de privacidade:
+A resposta será uma mensagem indicando sucesso na operação.
 
 <pre>
     <code>
        {
-          "_id": "1234567890",
-          "nome": "Nome do Usuário",
-          "email": "email.do.usuario@exemplo.com",
-          "dtCriacao": "2023-04-12T01:23:45.678Z"
+	       "message": "Usuário inserido com sucesso"
        }
     </code>
 </pre>
 
-<h3>📖 Consulta de usuários </h3>
+<h3>📖 Consulta de todos os usuários </h3>
 
-Para buscar um usuário específico, faça uma requisição do tipo GET para a URL <strong>http://localhost:3000/usuario/:id</strong>, substituindo :id pelo ID do usuário desejado. Por exemplo, para buscar o usuário com ID "1234567890", a URL seria <strong>http://localhost:3000/usuario/1234567890</strong>.
+Para buscar um usuário específico, faça uma requisição do tipo GET para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario/:id</strong>, substituindo :id pelo ID do usuário desejado. Por exemplo, para buscar o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>.
+
+A resposta será um array de objetos de todos os usuários, contendo o seu ID, nome, e-mail e data de criação:
+
+<pre>
+    <code>
+      [
+          {
+            "_id": "64382f55be7268b7dad7a2e8",
+            "nome": "Usuario de Teste 2",
+            "email": "emailteste2@gmail.com",
+            "dtCriacao": "2023-04-13T16:35:33.417Z",
+            "__v": 0
+          },
+          {
+            "_id": "64384318d290489428f81bad",
+            "nome": "Usuario de Teste Heroku 2",
+            "email": "emailtesteheroku2@gmail.com",
+            "dtCriacao": "2023-04-13T17:59:52.732Z",
+            "__v": 0
+          }
+       ]
+    </code>
+</pre>
+
+<h3>📖 Consulta de usuários por ID</h3>
+
+Para buscar um usuário específico, faça uma requisição do tipo GET para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario/:id</strong>, substituindo :id pelo ID do usuário desejado. Por exemplo, para buscar o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>.
 
 A resposta será o objeto do usuário buscado, contendo o seu ID, nome, e-mail e data de criação:
 
 <pre>
     <code>
        {
-          "_id": "1234567890",
-          "nome": "Nome do Usuário",
-          "email": "email.do.usuario@exemplo.com",
-          "dtCriacao": "2023-04-12T01:23:45.678Z"
+          "_id": "64384318d290489428f81bad",
+          "nome": "Usuario de Teste Heroku 2",
+          "email": "emailtesteheroku2@gmail.com",
+          "dtCriacao": "2023-04-13T17:59:52.732Z",
+          "__v": 0
        }
     </code>
 </pre>
 
 <h3>🔄 Atualizar dados do usuário </h3>
 
-Para atualizar um usuário existente, faça uma requisição do tipo PUT para a URL <strong>http://localhost:3000/usuario/:id</strong>, substituindo :id pelo ID do usuário a ser atualizado. Por exemplo, para atualizar o usuário com ID "1234567890", a URL seria <strong>http://localhost:3000/usuario/1234567890</strong>, com o seguinte corpo da requisição:
+Para atualizar um usuário existente, faça uma requisição do tipo PUT para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario/:id</strong>, substituindo :id pelo ID do usuário a ser atualizado. Por exemplo, para atualizar o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>, com o seguinte corpo da requisição:
 
 <pre>
     <code>
@@ -131,17 +156,19 @@ A resposta será o objeto do usuário atualizado, contendo o seu ID, nome, e-mai
 
 <h3>❌ Exclusão de usuário </h3>
 
-Para excluir um usuário existente, faça uma requisição do tipo DELETE para a URL <strong>http://localhost:3000/usuario/:id</strong>, substituindo :id pelo ID do usuário a ser excluído. Por exemplo, para excluir o usuário com ID "1234567890", a URL seria <strong>http://localhost:3000/usuario/1234567890</strong>.
+Para excluir um usuário existente, faça uma requisição do tipo DELETE para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario/:id</strong>, substituindo :id pelo ID do usuário a ser excluído. Por exemplo, para excluir o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>.
 
-A resposta será uma mensagem no seu terminal indicando que a operação foi realizada com sucesso:
+A resposta será uma mensagem indicando que a operação foi realizada com sucesso:
 
 <pre>
     <code>
-       Usuário excluído com sucesso.
+       {
+	        "message": "Usuário removido com sucesso"
+       }
     </code>
 </pre>
-
-<h2>🚦 Rotas de teste (Local)</h2>
+<h1 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 <h1>
+<h2>🚦 Rotas de teste (Heroku)</h2>
 
 <h3> 👤 Rotas do Usuario </h3>
 
