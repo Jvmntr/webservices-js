@@ -50,13 +50,13 @@ router.get('/:id', async (req, res) => {
 
     const id = req.params.id
 
-    if(!usuario) {
-        res.status(422).json({message: 'O usuário não foi encontrado, por favor verifique o ID e tente novamente.'})
-        return
-    }
-
     try {
         const usuario = await Usuario.findOne({_id: id})
+
+        if(!usuario) {
+            res.status(422).json({message: 'O usuário não foi encontrado, por favor verifique o ID e tente novamente.'})
+            return
+        }
 
         res.status(200).json(usuario)
 
