@@ -221,6 +221,14 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
       
     </code>
 </pre>
+	
+<strong> 🟣 GET - Consultar todos os produtos </strong>
+
+<pre>
+    <code>
+       
+    </code>
+</pre>
 
 <strong> 🟣 GET - Consultar Produto </strong>
 
@@ -249,6 +257,14 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 <h3>🚚 Rotas do Fornecedor </h3>
 
 <strong> 🟢 POST - Criar Fornecedor </strong>
+
+<pre>
+    <code>
+       
+    </code>
+</pre>
+	
+<strong> 🟣 GET - Consultar todos os fornecedores </strong>
 
 <pre>
     <code>
@@ -287,6 +303,10 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 <strong> 🟢 POST - Criar Usuário </strong>
 
 
+	
+<strong> 🟣 GET - Consultar todos os usuários </strong>
+
+	
 
 <strong> 🟣 GET - Consultar Usuário </strong>
 
@@ -307,6 +327,10 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 <strong> 🟢 POST - Criar Produto </strong>
 
 
+	
+<strong> 🟣 GET - Consultar todos os usuários </strong>	
+	
+	
 
 <strong> 🟣 GET - Consultar Produto </strong>
 
@@ -326,7 +350,11 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Fornecedor </strong>
 
+	
 
+<strong> 🟣 GET - Consultar todos os fornecedores </strong>
+	
+	
 
 <strong> 🟣 GET - Consultar Fornecedor </strong>
 
