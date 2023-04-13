@@ -16,8 +16,12 @@ app.use(express.json())
 //rotas da API 
 
 const UsuarioRoutes = require('./routes/UsuarioRoutes.js')
+const FornecedorRoutes = require('./routes/FornecedorRoutes.js')
+const ProdutoRoutes = require('./routes/ProdutoRoutes.js')
 
 app.use('/usuario', UsuarioRoutes)
+app.use('/fornecedor', FornecedorRoutes)
+app.use('/produto', ProdutoRoutes)
 
 //rota inicial do endpoint
 app.get('/', (req, res) => {
