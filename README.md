@@ -298,7 +298,46 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
     </code>
 </pre>
 
-<h2 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 </h2> 
+<h2> 📄 Exemplos de JSON <h2>
+	
+<h3> 👤 Rotas do Usuario </h3>
+
+<pre>
+	<code>
+		{
+			"nome":"Nome de exemplo",
+			"email":"emaildeexemplo@gmail.com",
+			"senha":"senhadeexemplo"
+		}
+	</code>
+</pre>	
+	
+<h3>🛍️ Rotas do Produto </h3>
+
+<pre>
+	<code>
+		{
+			"nomeProduto":"Nome de exemplo",
+			"quantidade":"100",
+			"fabricante":"Fabricante de exemplo"
+		}
+	</code>
+</pre>	
+	
+<h3>🚚 Rotas do Fornecedor </h3>
+	
+<pre>
+	<code>
+		{
+			"nome":"Nome de exemplo",
+			"email":"emaildeexemplo@gmail.com",
+			"CNPJ":"111111111111",
+			"localidade":"SP/São Paulo"
+		}
+	</code>
+</pre>	
+
+<h2 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 </h2>
 
 <h2>🚦 Evidências de funcionamento (Heroku) </h2>
 
