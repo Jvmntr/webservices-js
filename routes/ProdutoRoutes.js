@@ -5,7 +5,7 @@ const Produto = require('../models/Produto.js')
 //POST - criação de produto
 router.post('/', async (req, res) => {
 
-    const {nomeProduto, email, quantidade, fabricante} = req.body
+    const {nomeProduto, quantidade, fabricante} = req.body
 
     if(!nomeProduto|| !quantidade || !fabricante) {
         res.status(422).json({error: 'É necessário informar os dados por JSON!'})
