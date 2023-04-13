@@ -167,7 +167,9 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
        }
     </code>
 </pre>
-<h1 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 <h1>
+<br>
+<br>
+
 <h2>🚦 Rotas de teste (Heroku)</h2>
 
 <h3> 👤 Rotas do Usuario </h3>
@@ -218,7 +220,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-      
+      https://webservices-fiap-js.herokuapp.com/produto
     </code>
 </pre>
 	
@@ -226,15 +228,15 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto
     </code>
 </pre>
 
-<strong> 🟣 GET - Consultar Produto </strong>
+<strong> 🟣 GET - Consultar Produto por ID</strong>
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -242,7 +244,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -250,7 +252,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/produto/:id
     </code>
 </pre>
 
@@ -260,7 +262,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor
     </code>
 </pre>
 	
@@ -268,15 +270,15 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor
     </code>
 </pre>
 
-<strong> 🟣 GET - Consultar Fornecedor </strong>
+<strong> 🟣 GET - Consultar Fornecedor por ID</strong>
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
@@ -284,7 +286,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
@@ -292,11 +294,13 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       
+       https://webservices-fiap-js.herokuapp.com/fornecedor/:id
     </code>
 </pre>
 
-<h2>🚦 Evidências de funcionamento (Local) </h2>
+<h2 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 </h2> 
+
+<h2>🚦 Evidências de funcionamento (Heroku) </h2>
 
 <h3> 👤 Rotas do Usuario </h3>
 
