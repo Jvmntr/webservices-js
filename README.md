@@ -84,7 +84,7 @@ A resposta será uma mensagem indicando sucesso na operação.
 
 <h3>📖 Consulta de todos os usuários </h3>
 
-Para buscar um usuário específico, faça uma requisição do tipo GET para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario/:id</strong>, substituindo :id pelo ID do usuário desejado. Por exemplo, para buscar o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>.
+Para buscar um usuário específico, faça uma requisição do tipo GET para a URL <strong>https://webservices-fiap-js.herokuapp.com/usuario</strong>, substituindo :id pelo ID do usuário desejado. Por exemplo, para buscar o usuário com ID "1234567890", a URL seria <strong>https://webservices-fiap-js.herokuapp.com/usuario/1234567890</strong>.
 
 A resposta será um array de objetos de todos os usuários, contendo o seu ID, nome, e-mail e data de criação:
 
@@ -176,15 +176,23 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/usuario
+       https://webservices-fiap-js.herokuapp.com/usuario
     </code>
 </pre>
 
-<strong> 🟣 GET - Consultar Usuário </strong>
+<strong> 🟣 GET - Consultar todos os usuários </strong>
 
 <pre>
     <code>
-       http://localhost:3000/usuario/:id
+       https://webservices-fiap-js.herokuapp.com/usuario
+    </code>
+</pre>
+
+<strong> 🟣 GET - Consultar Usuário por ID</strong>
+
+<pre>
+    <code>
+       https://webservices-fiap-js.herokuapp.com/usuario/:id
     </code>
 </pre>
 
@@ -192,7 +200,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/usuario/:id
+       https://webservices-fiap-js.herokuapp.com/usuario/:id
     </code>
 </pre>
 
@@ -200,7 +208,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/usuario/:id
+       https://webservices-fiap-js.herokuapp.com/usuario/:id
     </code>
 </pre>
 
@@ -210,7 +218,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/produtos
+      
     </code>
 </pre>
 
@@ -218,7 +226,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/produtos/:id
+       
     </code>
 </pre>
 
@@ -226,7 +234,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/produtos/:id
+       
     </code>
 </pre>
 
@@ -234,7 +242,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/produtos/:id
+       
     </code>
 </pre>
 
@@ -244,7 +252,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/fornecedores
+       
     </code>
 </pre>
 
@@ -252,7 +260,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/fornecedores/:id
+       
     </code>
 </pre>
 
@@ -260,7 +268,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/fornecedores/:id
+       
     </code>
 </pre>
 
@@ -268,7 +276,7 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <pre>
     <code>
-       http://localhost:3000/fornecedores/:id
+       
     </code>
 </pre>
 
@@ -278,19 +286,19 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Usuário </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231555923-3421b299-b589-42b1-bcae-612f940e5a03.png)
+
 
 <strong> 🟣 GET - Consultar Usuário </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556025-da7457ca-5ab6-446d-837d-a60e5562143c.png)
+
 
 <strong> 🟠 PUT - Atualizar Usuário </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556085-e51d4f32-aeb2-456b-b47e-30135d9bfb64.png)
+
 
 <strong> 🔴 DEL - Deletar Usuário </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556120-36018e0c-fd45-4661-abc7-c52b298da022.png)
+
 <br>
 <br>
 
@@ -298,19 +306,19 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Produto </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556786-8b1fae5a-0ab5-440d-92df-d9855fe0722d.png)
+
 
 <strong> 🟣 GET - Consultar Produto </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556764-959308dc-5cfc-4244-8d9f-f81cc5a86945.png)
+
 
 <strong> 🟠 PUT - Atualizar Produto </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556729-44208307-0fc8-4a4a-8b32-fb15bfbe731d.png)
+
 
 <strong> 🔴 DEL - Deletar Produto </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556698-786f4100-3dae-483a-a1fc-225f5de679b3.png)
+
 <br>
 <br>
 
@@ -318,19 +326,19 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Fornecedor </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556302-cdba8baf-9795-4cb3-8972-3f51e6b6ad78.png)
+
 
 <strong> 🟣 GET - Consultar Fornecedor </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556335-8be0e629-33a8-49d2-acb6-ce111b49144f.png)
+
 
 <strong> 🟠 PUT - Atualizar Fornecedor </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556377-0212a7be-671a-445f-b2b3-df14f92af4a4.png)
+
 
 <strong> 🔴 DEL - Deletar Fornecedor </strong>
 
-![image](https://user-images.githubusercontent.com/61757615/231556425-e0567483-4457-4589-ac86-0b1b69add85b.png)
+
 <br>
 <br>
 
