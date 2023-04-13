@@ -1,5 +1,5 @@
 <h1 align="center">
-  Webservices - CRUD com MongoDB e Typescript
+  Webservices - CRUD com MongoDB e Javascript
  </h1>
   <h2 align="center">
   Pequeno projeto com o intuito de criar um CRUD utilizando 
