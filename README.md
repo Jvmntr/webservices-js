@@ -170,6 +170,9 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 <br>
 <br>
 
+<h2 align="center"> ⚠️ IMPORTANTE ⚠️ </h2> 
+<h3 align="center"> <strong> PARA CONFIRMAR OS DELETES VOCÊ PODE REALIZAR UM GET GERAL ANTES E APÓS CADA DELETE </strong> </h3>
+
 <h2>🚦 Rotas de teste (Heroku)</h2>
 
 <h3> 👤 Rotas do Usuario </h3>
@@ -337,30 +340,29 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 	</code>
 </pre>	
 
-<h2 align="center"> 🚧 SEÇÃO EM ANDAMENTO 🚧 </h2>
-
 <h2>🚦 Evidências de funcionamento (Heroku) </h2>
 
 <h3> 👤 Rotas do Usuario </h3>
 
 <strong> 🟢 POST - Criar Usuário </strong>
 
+![image](https://user-images.githubusercontent.com/61757615/232560982-e75fdae5-59b3-4573-a720-ea94c4e4b8d0.png)
 
-	
 <strong> 🟣 GET - Consultar todos os usuários </strong>
 
-	
+![image](https://user-images.githubusercontent.com/61757615/232561138-dcbad399-188e-4d9e-92e5-9de76a2c379d.png)
 
-<strong> 🟣 GET - Consultar Usuário </strong>
+<strong> 🟣 GET - Consultar Usuário por ID</strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232563323-f8f22d2a-2332-4c23-80c6-58ad4e3800d0.png)
 
 <strong> 🟠 PUT - Atualizar Usuário </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232563739-e625a2f1-8fce-4a93-8bb7-17b8b99f62b0.png)
 
 <strong> 🔴 DEL - Deletar Usuário </strong>
 
+![image](https://user-images.githubusercontent.com/61757615/232563929-4b4cea8d-bc1e-47b2-a4ec-b550200b5cc7.png)
 
 <br>
 <br>
@@ -369,22 +371,23 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Produto </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232565581-ee74fd9a-7072-49d3-ad8d-1000278c1883.png)
 	
-<strong> 🟣 GET - Consultar todos os usuários </strong>	
+<strong> 🟣 GET - Consultar todos os produtos </strong>	
 	
-	
+![image](https://user-images.githubusercontent.com/61757615/232565742-0379eac7-81e9-4b8c-a606-91dcd4fb7712.png)
 
-<strong> 🟣 GET - Consultar Produto </strong>
+<strong> 🟣 GET - Consultar Produto por ID </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232565879-75bf4ec2-4d4b-4373-a943-fd78647b35a4.png)
 
 <strong> 🟠 PUT - Atualizar Produto </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232566001-727780ca-5772-45db-8a0e-d03e330a0151.png)
 
 <strong> 🔴 DEL - Deletar Produto </strong>
 
+![image](https://user-images.githubusercontent.com/61757615/232566094-d1ab5644-ddf9-4b87-aa9c-92375126de82.png)
 
 <br>
 <br>
@@ -393,22 +396,23 @@ A resposta será uma mensagem indicando que a operação foi realizada com suces
 
 <strong> 🟢 POST - Criar Fornecedor </strong>
 
-	
+![image](https://user-images.githubusercontent.com/61757615/232566914-acfec4b9-70ea-4f9b-a6fd-198c539b2b53.png)	
 
 <strong> 🟣 GET - Consultar todos os fornecedores </strong>
 	
-	
+![image](https://user-images.githubusercontent.com/61757615/232566974-96cd415c-2435-4459-baee-b60ca1a48070.png)	
 
-<strong> 🟣 GET - Consultar Fornecedor </strong>
+<strong> 🟣 GET - Consultar Fornecedor por ID </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232567069-26df2a97-09b8-4ac1-b1f5-304d544ce0b1.png)
 
 <strong> 🟠 PUT - Atualizar Fornecedor </strong>
 
-
+![image](https://user-images.githubusercontent.com/61757615/232567185-5247e1c8-7ac3-4c5e-8439-83893422dd60.png)
 
 <strong> 🔴 DEL - Deletar Fornecedor </strong>
 
+![image](https://user-images.githubusercontent.com/61757615/232567259-ea804f89-d608-4e3b-af8b-6f041fcd6f8d.png)
 
 <br>
 <br>
